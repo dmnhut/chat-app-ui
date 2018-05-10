@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:stretchColumns="1">
+
+    <TableRow>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgsms"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:src="@drawable/cartoon" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/namesms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tien"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textsms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ve r a"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/datesms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="5dp"
+            android:text="8:00"
+            android:textColor="@android:color/black" />
+    </TableRow>
+</TableLayout>

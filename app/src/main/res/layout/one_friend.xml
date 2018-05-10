@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:stretchColumns="1">
+
+    <TableRow>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgFriends"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:src="@drawable/cartoon" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtFriends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tien"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/infoFriends"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/info_black" />
+
+            <ImageView
+                android:id="@+id/textFriends"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/message_black" />
+
+            <ImageView
+                android:id="@+id/removeFriends"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/remove_circle_outline_black" />
+        </LinearLayout>
+
+    </TableRow>
+</TableLayout>

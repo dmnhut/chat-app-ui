@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tin Nhắn</string>
+    <string name="forget"><u>Quên Mật Khẩu?</u></string>
+    <string name="edtName">Tên Đăng Nhập</string>
+    <string name="edtPasswd">Mật Khẩu</string>
+    <string name="btnLogin">Đăng Nhập</string>
+    <string name="btnSignup">Đăng Ký</string>
+    <string name="edtPhone">Số Điện Thoại</string>
+    <string name="edtEmail">Email</string>
+    <string name="edtDate">03/04/1996</string>
+    <string name="homeNav">Mục Chính</string>
+    <string name="friendsNav">Bạn Bè</string>
+    <string name="settingNav">Cài Đặt</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="input_placeholder">viết tin nhắn</string>
+</resources>
